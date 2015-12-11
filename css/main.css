@@ -43,7 +43,18 @@ nav ul {
 
 nav ul li a{
 	display: block;
-	width: 150px;
+	text-decoration: none;
+	color: #000;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 16px;
+	
+}
+
+nav ul li a :hover {
+	background-color: #555;
+	color: #FFF;
+	
 }
 
 
