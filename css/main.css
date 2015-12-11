@@ -58,6 +58,11 @@ nav ul li a :hover {
 	
 }
 
+.active {
+	background-color: #4CAF50;
+	color: #FFF;
+}
+
 
 
 
