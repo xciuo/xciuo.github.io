@@ -18,10 +18,12 @@ h1 {
 }
 
 #maincontent{
-	margin-left: 75px;
+	margin-left: 150px;
+	padding-left: 25px;
 	margin-right: 75px;
 	
 }
+
 
 .centerMe {
 	display: block;
@@ -29,3 +31,31 @@ h1 {
 	margin-right: auto;
 	
 }
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 150px;
+	background-color: #F1F1F1;
+	
+}
+
+nav ul li a{
+	display: block;
+	width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
