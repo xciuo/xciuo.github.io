@@ -43,7 +43,10 @@ nav ul {
 }
 
 nav ul li a{
-	display: inline;
+	display: block;
+    padding: 8px;
+    background-color: #dddddd;
+	float: left;
 	text-decoration: none;
 	color: #000;
 	padding-top: 8px;
