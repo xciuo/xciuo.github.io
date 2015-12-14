@@ -18,9 +18,9 @@ h1 {
 }
 
 #maincontent{
-	margin-left: 150px;
+	margin-left: 5%;
 	padding-left: 25px;
-	margin-right: 75px;
+	margin-right: 2.5%;
 	
 }
 
@@ -53,8 +53,8 @@ nav ul li a{
 }
 
 nav ul li a :hover {
-	background-color: #555;
-	color: #FFF;
+	background-color: #555555;
+	color: #FFFFFF;
 	
 }
 
