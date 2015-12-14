@@ -8,11 +8,11 @@ body {
 }
 
 h1 {
-	background-color: #FFFFFF
-
-	border: 5px;
-	margin-left: 50px;
-	margin-right: 50px;
+	background-color: #FFFFFF;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-bottom: 5%;
+	padding-top: 5%;
 	
 	
 }
@@ -61,6 +61,16 @@ nav ul li a :hover {
 .active {
 	background-color: #7cc3ef;
 	color: #FFF;
+}
+
+@media screen and (max-width: 600 px) {
+	nav {
+		display: none;
+	}	
+	#maincontent{
+		margin-left: 5%;
+		margin-right: 5%;
+	}
 }
 
 
