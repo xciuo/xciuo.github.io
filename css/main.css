@@ -59,17 +59,42 @@ nav ul li a :hover {
 }
 
 .active {
-	background-color: #7cc3ef;
+	background-color: #5B9AD3;
 	color: #FFF;
 }
 
 @media screen and (max-width: 600 px) {
-	nav {
-		display: none;
-	}	
+	
 	#maincontent{
 		margin-left: 5%;
 		margin-right: 5%;
+	}
+		nav ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		background-color: #F1F1F1;
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: auto;
+		
+	}
+
+	nav ul li a{
+		display: block;
+		text-decoration: none;
+		color: #000;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		padding-left: 16px;
+		
+	}
+	
+	nav ul li a {
+		float: left;
+		
 	}
 }
 
