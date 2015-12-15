@@ -33,31 +33,40 @@ h1 {
 	
 }
 
-nav ul {
-	list-style-type: none;         
-	margin: 0;         
-	padding: 0;        
-	background-color: #f1f1f1;         
-	width: 130px;         
-	position: fixed;        
-	height: 100%;         
-	top: 0;        
+}
+	nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: #f1f1f1;
+	position: fixed;
+	top: 0;
 	left: 0;
+	height: auto;
 	
 }
 
 nav ul li a{
 	display: block;
-	text-decoration: none;        
+	text-decoration: none;
 	color: #000;
-	padding-left: 16px;         
-	padding-top: 8px;         
+	padding-top: 8px;
 	padding-bottom: 8px;
+	padding-left: 16px;
+	padding-right: 16 px;
+	
+}
+
+nav ul li a {
+	float: left;
+	
+}
 	
 }
 
 nav ul li a :hover {
-	background-color: #555555;
+	background-color: #0D61AD;
 	color: #fff;
 	
 }
@@ -74,40 +83,12 @@ img {
 }
 
 @media screen and (max-width: 350 px) {
-	
-	}
-		nav ul {
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-		width: 100%;
-		background-color: #f1f1f1;
-		position: fixed;
-		top: 0;
-		left: 0;
-		height: auto;
-		
-	}
 
-	nav ul li a{
-		display: block;
-		text-decoration: none;
-		color: #000;
-		padding-top: 8px;
-		padding-bottom: 8px;
-		padding-left: 16px;
-		padding-right: 16 px;
-		
-	}
-	
-	nav ul li a {
-		float: left;
-		
-	}
 	#maincontent{
 		margin-left: 5%;
 		margin-right: 5%;
 		padding-top: 5%;
+	}
 }
 
 
