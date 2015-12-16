@@ -19,6 +19,7 @@ h1 {
 }
 
 #maincontent{
+	font-family: 'Raleway', sans-serif;
 	margin-left: 150px;
 	padding-left: 25px;
 	margin-right: 5%;
@@ -34,6 +35,7 @@ h1 {
 }
 
 nav ul {
+	font-family: 'Raleway', sans-serif;
 	list-style-type: none;         
 	margin: 0;         
 	padding: 0;        
@@ -79,6 +81,7 @@ img {
 	
 	}
 		nav ul {
+		font-family: 'Raleway', sans-serif;
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
