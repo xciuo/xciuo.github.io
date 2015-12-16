@@ -5,7 +5,7 @@ color: #000000;
 body {
 	font-size: 14px;
 	background-color: #FFFFFF;
-    background-image: url("capture.png");
+    background-image: url("../pictures/capture.png");
     background-repeat: no-repeat;
     background-position: right top;
 }
