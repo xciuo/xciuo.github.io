@@ -5,6 +5,7 @@ color: #000000;
 body {
 	font-size: 14px;
 	background-image: url(file://C:\Users\2401786\Pictures\background.jpg);
+	background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
