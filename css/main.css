@@ -4,10 +4,8 @@ color: #000000;
 
 body {
 	font-size: 14px;
-	background-image: url(file://C:\Users\2401786\Pictures\background.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-	background-position: center;
+	background: url("file://C:\Users\2401786\Documents\GitHub\xciuo.github.io\pictures\Capture.jpg");
+
 }
 
 
