@@ -4,7 +4,8 @@ color: #000000;
 
 body {
 	font-size: 14px;
-	background: linear-gradient(white, #5B9AD3);
+	background: linear-gradient(white, LightBlue);
+	background-attachment: fixed;
 }
 
 
